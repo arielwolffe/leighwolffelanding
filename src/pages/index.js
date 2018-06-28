@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import styles from '../layouts/index.module.css'
 import Wolf from '../assets/images/logo1.png'
 import Leigh from '../assets/images/logo2.png'
+import LeighBlack from '../assets/images/logo-black.png'
 
 const IndexPage = () => (
   <div className={styles.mainContainer}>
@@ -10,7 +11,7 @@ const IndexPage = () => (
       <img
         src={Wolf}
         alt="Leigh Wolffe Digital Labs"
-        style={{ maxWidth: '25%', marginLeft: '30px' }}
+        className={styles.whiteLogo}
       />
       <div className={styles.mailbox}>
         <h1>Hello,</h1>
@@ -46,7 +47,6 @@ const IndexPage = () => (
           </div>
           <br />
           <br />
-          <h4>Life's too short to not keep up!</h4>
         </p>
       </div>
     </div>
@@ -60,6 +60,11 @@ const IndexPage = () => (
         bottom: 0,
         marginRight: '70px',
       }}
+    />
+    <img
+      src={LeighBlack}
+      alt="Leigh Wolffe Digital Labs"
+      className={styles.blackLogo}
     />
   </div>
 )
