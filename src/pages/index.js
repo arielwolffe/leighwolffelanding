@@ -22,28 +22,19 @@ const IndexPage = () => (
           creativity together.
           <br />
           <br />
-          <p className={styles.digitalOrange}>
-            <b>
-              Sign up for our mailing list to keep up to date the 411 on digital
-              business and know exactly when we launch!
-            </b>
-          </p>
+          <br />
+          <h1 className={styles.digitalOrange}>
+            <b>WIN A FREE WEBSITE!!</b>
+          </h1>
           <div>
-            <form name="Email-SignUp" method="POST" netlify>
-              <div>
-                <input
-                  className={styles.emailField}
-                  type="email"
-                  name="email"
-                  placeholder="Enter Your Email here!"
-                />
-              </div>
-              <div className={styles.btnDiv}>
-                <button type="submit" className={styles.btnSubmit}>
-                  Send
-                </button>
-              </div>
-            </form>
+            <a href="https://goo.gl/forms/bOkwRxchHXUkmluM2" target="_blank">
+              Click here FOR A CHANCE TO WIN!
+            </a>
+            <br />
+            <br />
+            <p className={styles.digitalOrange}>
+              Giveaway ends September 21st, 2018
+            </p>
           </div>
           <br />
           <br />
