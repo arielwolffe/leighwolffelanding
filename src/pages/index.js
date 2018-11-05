@@ -22,22 +22,6 @@ const IndexPage = () => (
           creativity together.
           <br />
           <br />
-          <br />
-          <h1 className={styles.digitalOrange}>
-            <b>WIN A FREE WEBSITE!!</b>
-          </h1>
-          <div>
-            <a href="https://goo.gl/forms/bOkwRxchHXUkmluM2" target="_blank">
-              Click here FOR A CHANCE TO WIN!
-            </a>
-            <br />
-            <br />
-            <p className={styles.digitalOrange}>
-              Giveaway ends September 21st, 2018
-            </p>
-          </div>
-          <br />
-          <br />
         </p>
       </div>
     </div>
